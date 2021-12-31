@@ -1,6 +1,6 @@
 /** Just a shortcut to the "document.getElementById" function :)
  * @param {string} elementId The ID of the requested HTML element
- */
+*/
 function getL(elementId) {
 
     return document.getElementById(elementId);
