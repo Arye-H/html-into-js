@@ -48,4 +48,4 @@ This method greatly simplifies the writing and visibility of the code, and imple
 <br/>
 
 Attached is a minimal example project, see ExampleProject folder.
-To view online the results of the example project, you can click [on this link](https://htmlpreview.github.io/?https://github.com/Arye-H/html-into-js/ExampleProject/index.html).
+To view online the results of the example project, you can click [on this link](https://htmlpreview.github.io/?https://github.com/Arye-H/html-into-js/blob/main/ExampleProject/index.html).
