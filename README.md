@@ -15,7 +15,7 @@ This method greatly simplifies the writing and visibility of the code, and imple
 
 <br/>
 
-1. Save the html2js.js file to the website folder and create a reference to it in the head section of the main HTML file. for example:
+1. Save the html2js.js file to the website folder and create a reference to this file in the head section of the main HTML file.<br/>For example:
 ```
 <head>
   <script src="./scripts/html2js.js"></script>
@@ -23,7 +23,7 @@ This method greatly simplifies the writing and visibility of the code, and imple
 ```
 <br/>
 
-2. Make sure that the parent HTML element in the main HTML file, under which you want to create / edit / delete elements using the code, has an ID set for it. for example:
+2. Be sure, that the parent HTML element in the main HTML file, which you want to use the create / edit / delete elements under it, has an ID.<br/>For example:
 ```
 <body>
   <div id="MainDiv"></div>
@@ -31,15 +31,15 @@ This method greatly simplifies the writing and visibility of the code, and imple
 ```
 <br/>
 
-3. You can now directly from your code in JS:
-  * Create elements by calling the `buildL` function
-  * Access an existing element using the `getL` shortcut function
-  * Delete an existing element using the `remove()` official property
-  * Delete all sub-elements under an existing element using the `removeChildren()` property
+3. Now, you may do the below options, directly from your JS code:
+  * Create elements by calling the `buildL` function.
+  * Access an existing element using the `getL` shortcut function, and handle the element.
+  * Delete an existing element using the `remove()` official JS property.
+  * Delete all sub-elements under an existing element using the `removeChildren()` property.
 
 <br/>
 
-**Note! Make sure to add an ID to each element you create so that it can be accessed later.**
+**Note! Be sure to add an ID to each element you create so you can access it later.**
 
 <br/><br/>
 

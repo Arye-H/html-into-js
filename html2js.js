@@ -1,5 +1,5 @@
 /** Just a shortcut to the "document.getElementById" function :)
- * @param {string} elementId The ID of the requested HTML element
+ * @param {string} elementId ID of the requested HTML element
 */
 function getL(elementId) {
 
@@ -10,11 +10,11 @@ function getL(elementId) {
 
 
 /** 
- * Creating a new HTML element, placing it under an existing element, And returns it.
- * @param {string} parentId The ID of element below it will be the new element
- * @param {string} type Type of new element. For example: div, p, img etc.
- * @param {Object} attributes Object that contains a list of attributes of the new element
- * @param {string} innerText The text content that displayed in the element
+ * Creating a new HTML element. Setting it under an existing element. Returns the created new element.
+ * @param {string} parentId ID of the element, that has to include the new element.
+ * @param {string} type Type of the new element. For example: div, p, img etc.
+ * @param {Object} attributes Object that contains a list of attributes required for the new element.
+ * @param {string} innerText The text which will be displayed on the element.
 */
 function buildL(parentId, type, attributes = {}, innerText = "") {
 
@@ -31,7 +31,7 @@ function buildL(parentId, type, attributes = {}, innerText = "") {
 
 
 
-/* Adding a property to the DOM elements that allows to remove all the children below them */
+/* Adding a property to the DOM elements that allows to remove all its children */
 if (typeof Element.prototype.removeChildren === 'undefined') {
 
     Object.defineProperty(Element.prototype, 'removeChildren', {
